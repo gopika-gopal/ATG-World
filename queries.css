@@ -1,0 +1,149 @@
+/* rem and em do NOT depend on html font-size in media queries !
+Instead, 1rem = 1em = 16px */
+
+/* ******************************* */
+/* BELOW 1344px (Smaller desktops) */
+/* ******************************* */
+
+@media (max-width:84em){
+
+    .location-text{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.6px;
+        opacity: 50%;
+    }
+
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+
+
+/* ******************************* */
+/* BELOW 1200px (Landscape Tablets) */
+/* ******************************* */
+
+@media (max-width:75em){
+
+    .post-btn{
+        font-size: 13px;
+            
+    }
+
+    .join-btn{
+        font-size: 13px;
+        
+    }
+
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .posts{
+        font-size: 15px;
+    }
+}
+
+
+
+/* ******************************* */
+/* BELOW 944px (Tablets) */
+/* ******************************* */
+
+@media (max-width:59em){
+
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .posts{
+        font-size: 14px;
+        gap: 2rem;
+    }
+
+    .navbar form input:first-child {
+        padding: 12px;
+        width: 320px;
+    }
+       
+    .login{
+        font-size: 12px;
+    }
+
+    .post-btn{
+        font-size: 12px;      
+    }
+
+    .join-btn{
+        font-size: 12px;
+    }
+
+    .grid-box{
+        display: block;
+    }
+
+}
+
+
+
+/* ******************************* */
+/* BELOW 704px (Smaller Tablets) */
+/* ******************************* */
+
+@media (max-width:44em){
+    .navbar form input:first-child {
+            width: 230px;
+    }
+
+    .h1{
+        font-size: 34px;
+    }
+
+    .login{
+        font-size: 12px;
+    }
+
+    .post-btn{
+        font-size: 10px;      
+    }
+
+    .join-btn{
+        font-size: 10px;
+    }
+}
+
+
+
+/* ******************************* */
+/* BELOW 544px (Phones) */
+/* ******************************* */
+
+@media (max-width:34em){
+
+    .p{
+        font-size: 12px;
+    }
+
+    .h1{
+        font-size: 34px;
+        line-height: 53.8px;
+    }
+
+    .login{
+        font-size: 10px;
+    }
+
+    .navbar form input:first-child {
+        padding: 12px;
+        width: 78px;
+        font-size: 12px;
+    }
+}
